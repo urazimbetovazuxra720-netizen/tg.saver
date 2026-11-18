@@ -73,7 +73,7 @@ async def new_message_handler(event):
 
             # Xabar birinchi o'ringa qo'yildi
             out_text = (
-                f"📬 **Yangi xabar:** {text} `[{msg_time}]`\n\n"
+                f"✉️ **Yangi xabar:** {text} `[{msg_time}]`\n\n"
                 f"👤 **Kimdan:** {sender_name}\n"
                 f"💬 **Qayerdan:** {source_type}"
             )
